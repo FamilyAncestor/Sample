@@ -1,4 +1,4 @@
-Set Config values;
+Set Config values: first change in gmail
 git config --global user.name "amee"
 git config --global user.email "email"
 git config --help
