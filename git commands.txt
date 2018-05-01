@@ -1,0 +1,60 @@
+Set Config values:
+git config --global user.name "amee"
+git config --global user.email "email"
+git config --help
+
+git help:
+git help congig
+or git congig --help
+
+$ git status
+On branch branch1
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   git commands.txt
+
+ls -la-- list out all files
+git init
+
+
+add all the files to staging area:
+git add -A
+
+remove from staging area:
+git reset filename.txt
+or reset all the files
+git reset
+
+
+commit files:
+git add -A
+git commit -m "comment"
+git status
+git log
+
+view the information for the remote directory:
+git remote -v
+git branch -a
+
+
+Pushing to remote directory:
+git pull origin master -- get update
+git push origin maste
+
+
+creating the branch:
+git branch nameofthebranch
+git checkout nameofthebranch-- change to current working branch
+
+after commit push branch to remote:
+git push -u origin nameofthebranch
+
+delete branch in local and remote:
+git branvh -d branchname-- delete locally
+git branch -a
+git push origin --delete branchname-- delete remotly.
+
+overall:
+modified-->add-->commit-->push branch-->checkout master-->pull-->merge-->push-->done
+
